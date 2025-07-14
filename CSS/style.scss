@@ -1,0 +1,46 @@
+@import 'variables/global';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.site-body{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: row;
+}
+
+.BarraSuperior{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #a5a5a5;
+    width: 100%;
+    height: 96px;
+    flex-direction: row;
+    color: #fff;
+    padding: 15px; 
+    font-size: 'arial', roboto;
+}
+
+
+.logo{
+    align-items: flex-start;
+    width: 100px;
+    height: 100px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    align-items: flex-end;
+    font-family: $font-style-arial;
+    font-style: $font-color-white;
+}
+
+.

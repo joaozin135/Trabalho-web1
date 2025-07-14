@@ -1,0 +1,64 @@
+$font-style-arial: 'Arial', sans-serif;
+
+$font-color-white: #fff;
+
+// Tamanhos de Fonte
+$font-size-xs: 0.75rem; // 12px
+$font-size-sm: 0.875rem; // 14px
+$font-size-base: 1rem; // 16px
+$font-size-lg: 1.125rem; // 18px
+$font-size-xl: 1.25rem; // 20px
+$font-size-2xl: 1.5rem; // 24px
+$font-size-3xl: 1.875rem; // 30px
+$font-size-4xl: 2.25rem; // 36px
+$font-size-5xl: 3rem; // 48px
+$font-size-6xl: 3.75rem; // 60px
+
+// Pesos de Fonte
+$font-weight-light: 100;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+
+// Espaçamentos
+$spacing-1: 0.25rem; // 4px
+$spacing-2: 0.5rem; // 8px
+$spacing-3: 0.75rem; // 12px
+$spacing-4: 1rem; // 16px
+$spacing-6: 1.5rem; // 24px
+$spacing-8: 2rem; // 32px
+$spacing-10: 2.5rem; // 40px
+$spacing-12: 3rem; // 48px
+$spacing-48: 12rem; // 192px
+
+// Border-radius
+$border-radius-sm: 0.25rem; // 4px
+$rounded-lg: 0.5rem; // 8px
+
+// Sombras
+$shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$drop-shadow-md: 0 4px 3px rgba(0, 0, 0, 0.07), 0 2px 2px rgba(0, 0, 0, 0.06);
+
+// Transições
+$transition-duration-100: 0.1s;
+$transition-duration-200: 0.2s;
+$transition-duration-300: 0.3s;
+$transition-all: all $transition-duration-200 ease-in-out;
+
+// Alturas / Larguras Máximas
+$min-h-screen: 100dvh; // min-h-screen
+$max-w-base: 42rem; // max-w-xl (672px)
+$max-w-md: 28rem; // max-w-md (448px)
+$max-w-lg: 32rem; // max-w-lg (512px)
+$max-w-xl: 36rem; // max-w-xl (576px)
+$max-w-2xl: 42rem; // max-w-2xl (672px)
+$max-w-3xl: 48rem; // max-w-3xl (768px)
+$max-w-4xl: 64rem; // max-w-4xl (1024px)
+$max-w-5xl: 80rem; // max-w-5xl (1280px)
+$max-w-full: 100%; // full width
+
+// Cores de Background
+//$background-color-body: $color-gray-50;
+//$background-color-nav: rgba($color-gray-50, 0.9);
+//$background-color-footer: $color-gray-900;
