@@ -3,7 +3,9 @@
 @import 'components/services';
 @import 'components/team';
 @import 'components/testimonials';
+@import 'components/contact';
 @import 'base';
+
 
 
 .site-body{
@@ -11,7 +13,6 @@
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        //flex-direction: row;
 }
 
 .BarraSuperior{

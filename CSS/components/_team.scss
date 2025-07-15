@@ -103,13 +103,3 @@
 	color: $color-black;
 	font-size: $font-size-base;
 }
-
-.testimonial-rating {
-	display: flex;
-	gap: $spacing-1;
-
-	.fa-star {
-		color: $color-gold;
-		font-size: $font-size-base;
-	}
-}
