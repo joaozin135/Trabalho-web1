@@ -1,6 +1,25 @@
+$font-color-white: #fff;
+
+//Estilos de Fonte
+$font-family-outfit: 'Outfit', sans-serif;
 $font-style-arial: 'Arial', sans-serif;
 
-$font-color-white: #fff;
+// Cores Neutras (Escala de Cinzas)
+$color-gray-50: #f9fafb;
+$color-gray-100: #f3f4f6;
+$color-gray-200: #e5e7eb;
+$color-gray-300: #d1d5db;
+$color-gray-400: #9ca3af;
+$color-gray-600: #4b5563;
+$color-gray-700: #374151;
+$color-gray-800: #1f2937;
+$color-gray-900: #111827;
+
+// Cores Primárias/Gerais
+$color-black: #000;
+$color-white: #fff;
+$color-gold: #ffd700;
+$color-red-500: #ef4444;
 
 // Tamanhos de Fonte
 $font-size-xs: 0.75rem; // 12px
@@ -59,6 +78,6 @@ $max-w-5xl: 80rem; // max-w-5xl (1280px)
 $max-w-full: 100%; // full width
 
 // Cores de Background
-//$background-color-body: $color-gray-50;
-//$background-color-nav: rgba($color-gray-50, 0.9);
-//$background-color-footer: $color-gray-900;
+$background-color-body: $color-gray-50;
+$background-color-nav: rgba($color-gray-50, 0.9);
+$background-color-footer: $color-gray-900;
