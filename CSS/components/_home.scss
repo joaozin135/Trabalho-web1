@@ -65,20 +65,3 @@
 	filter: drop-shadow($drop-shadow-md);
 	color: white;
 }
-
-botao {
-			margin-top: 10px;
-			padding: 10px;
-			background: #333;
-			color: white;
-			border: none;
-			border-radius: 6px;
-			cursor: pointer;
-			font-size: 16px;
-			font-weight: 500;
-			transition: background 0.3s ease;
-
-			&:hover {
-				background: #555;
-			}
-		}

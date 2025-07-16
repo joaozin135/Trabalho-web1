@@ -72,22 +72,6 @@
   color: white;
 }
 
-botao {
-  margin-top: 10px;
-  padding: 10px;
-  background: #333;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 500;
-  transition: background 0.3s ease;
-}
-botao:hover {
-  background: #555;
-}
-
 .services-section {
   display: flex;
   padding: 3rem 1rem;
@@ -183,7 +167,7 @@ botao:hover {
   }
 }
 
-.testimonials-section {
+.team-section {
   display: flex;
   padding: 3rem 1rem;
   min-height: 100dvh;
@@ -194,7 +178,7 @@ botao:hover {
   text-align: center;
 }
 
-.testimonials-header {
+.team-header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -202,35 +186,35 @@ botao:hover {
   gap: 0.5rem;
   max-width: 64rem;
 }
-.testimonials-header .testimonials-title {
+.team-header .team-title {
   font-size: 3rem;
   font-weight: 500;
   color: #111827;
 }
-.testimonials-header .testimonials-description {
+.team-header .team-description {
   line-height: 1.625;
   text-wrap: pretty;
   color: #000;
   font-size: 1.5rem;
 }
 
-.testimonials-grid {
+.team-grid {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 1rem;
 }
 @media (min-width: 768px) {
-  .testimonials-grid {
+  .team-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 @media (min-width: 1024px) {
-  .testimonials-grid {
+  .team-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
-.testimonial-card {
+.team-card {
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
@@ -242,13 +226,13 @@ botao:hover {
   text-align: left;
 }
 
-.testimonial-author {
+.team-author {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-.testimonial-avatar {
+.team-avatar {
   width: 64px;
   height: 64px;
   border-radius: 50%;
@@ -256,7 +240,7 @@ botao:hover {
   overflow: hidden;
   background-color: #e5e7eb;
 }
-.testimonial-avatar .avatar-image {
+.team-avatar .avatar-image {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -279,7 +263,7 @@ botao:hover {
   color: #000;
 }
 
-.testimonial-text {
+.team-text {
   line-height: 1.625;
   font-weight: 400;
   text-wrap: pretty;
@@ -302,7 +286,7 @@ botao:hover {
 }
 .left iframe {
   width: 100%;
-  height: 500px;
+  height: 700px;
   max-height: 500px;
   border: none;
 }
@@ -325,7 +309,7 @@ botao:hover {
   background: white;
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   gap: 15px;
